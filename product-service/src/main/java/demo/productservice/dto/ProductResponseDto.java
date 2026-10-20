@@ -13,4 +13,5 @@ public class ProductResponseDto {
     private Long productId;
     private String productName;
     private Integer productQuantity;
+    private Double productPrice;
 }

@@ -30,7 +30,7 @@ public class InventoryService {
             if(isLocked){
                 System.out.println("Đã lấy được khóa. đang xử lý đặt hàng cho: " + orderEvent.getOrderDetails().getFirst().getProductId());
 
-                Thread.sleep(2000);
+                Thread.sleep(3000);
 
                 System.out.println("Đặt hàng thành công: " + orderEvent.getOrderDetails().getFirst().getProductId());
 
